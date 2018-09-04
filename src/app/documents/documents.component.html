@@ -1,0 +1,7 @@
+<h2>Documents</h2>
+<ul class="documents">
+  
+  <li *ngFor="let doc of documents">
+    <span class="badge">{{doc.sourceId}} </span> <span class="badge"> {{doc.score}} </span>  <span> {{doc.fulltext}} </span>
+  </li>
+</ul>
